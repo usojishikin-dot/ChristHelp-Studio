@@ -46,14 +46,14 @@ export const getPortfolioImage = (filename) => {
  * Update this list when adding/removing portfolio images
  */
 export const portfolioImages = [
-    { id: 1, src: '/images/portfolio/photo1.jpg', alt: 'Studio Portrait', category: 'portrait' },
-    { id: 2, src: '/images/portfolio/photo2.jpg', alt: 'Photography Session', category: 'portrait' },
-    { id: 3, src: '/images/portfolio/photot3.jpg', alt: 'Professional Shoot', category: 'portrait' },
-    { id: 4, src: '/images/portfolio/photo4.jpg', alt: 'Studio Work', category: 'portrait' },
-    { id: 5, src: '/images/portfolio/photo6.jpg', alt: 'Photo Session', category: 'portrait' },
-    { id: 6, src: '/images/portfolio/photo7.jpg', alt: 'Portrait Photography', category: 'portrait' },
-    { id: 7, src: '/images/portfolio/photo8.jpg', alt: 'Professional Portrait', category: 'portrait' },
-    { id: 8, src: '/images/portfolio/photo9.jpg', alt: 'Studio Session', category: 'portrait' },
+    { id: 1, src: '/images/portfolio/photo1.jpg', webp: '/images/portfolio/photo1.webp', alt: 'Studio Portrait', category: 'portrait' },
+    { id: 2, src: '/images/portfolio/photo2.jpg', webp: '/images/portfolio/photo2.webp', alt: 'Photography Session', category: 'portrait' },
+    { id: 3, src: '/images/portfolio/photot3.jpg', webp: '/images/portfolio/photot3.webp', alt: 'Professional Shoot', category: 'portrait' },
+    { id: 4, src: '/images/portfolio/photo4.jpg', webp: '/images/portfolio/photo4.webp', alt: 'Studio Work', category: 'portrait' },
+    { id: 5, src: '/images/portfolio/photo6.jpg', webp: '/images/portfolio/photo6.webp', alt: 'Photo Session', category: 'portrait' },
+    { id: 6, src: '/images/portfolio/photo7.jpg', webp: '/images/portfolio/photo7.webp', alt: 'Portrait Photography', category: 'portrait' },
+    { id: 7, src: '/images/portfolio/photo8.jpg', webp: '/images/portfolio/photo8.webp', alt: 'Professional Portrait', category: 'portrait' },
+    { id: 8, src: '/images/portfolio/photo9.jpg', webp: '/images/portfolio/photo9.webp', alt: 'Studio Session', category: 'portrait' },
 ];
 
 /**
@@ -61,6 +61,7 @@ export const portfolioImages = [
  */
 export const heroImages = {
     main: '/images/hero/hero.jpg',
+    mainWebp: '/images/hero/hero.webp',
 };
 
 export default {

@@ -39,12 +39,16 @@ const Portfolio = () => {
                             }}
                             className="relative mb-3 md:mb-4 break-inside-avoid rounded-2xl overflow-hidden group cursor-pointer"
                         >
-                            <img
-                                src={image.src}
-                                alt={image.alt}
-                                loading="lazy"
-                                className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                            />
+                            <picture>
+                                <source srcSet={image.webp} type="image/webp" />
+                                <img
+                                    src={image.src}
+                                    alt={image.alt}
+                                    loading="lazy"
+                                    decoding="async"
+                                    className="w-full h-auto object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                                />
+                            </picture>
 
                             {/* Hover overlay */}
                             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors duration-500" />
